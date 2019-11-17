@@ -27,8 +27,8 @@ end
 
 def array_literal_matrix
   array_literal_matrix = [
-    [ENNET_HOUSE.sort],
-    [ENFIELD_TENNIS_ACADEMY.sort]
+    ENNET_HOUSE.sort,
+    ENFIELD_TENNIS_ACADEMY.sort
   ]
   # Using Array literal syntax only, build a nested array that uses the data in
   # side the ENNET_HOUSE and ENFIELD_TENNIS_ACADEMY Arrays but sorts
